@@ -42,165 +42,170 @@
 } */
 
 body {
-    margin: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 .input-container label {
-    font-weight: bold;
-    font-size: 1.2em;
+  font-weight: bold;
+  font-size: 1.2em;
 
-    color: white;
-    font-weight: 300;
+  color: white;
+  font-weight: 300;
 }
 
 .box-pane {
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    padding: 40px;
-    box-sizing: border-box;
-    height: 600px;
-    margin: 50px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 40px;
+  box-sizing: border-box;
+  height: 600px;
+  margin: 50px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #info-pane {
-    background-color: #88bdbc;
-    margin-left: 30px;
+  background-color: #88bdbc;
+  margin-left: 30px;
 }
 
-
 .input-container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .input-wrap {
-    display: flex;
-    margin-top: 10px;
-    height: 30px;
+  display: flex;
+  margin-top: 10px;
+  height: 30px;
 }
 
 .currency-code {
-    display: flex;
-    margin-right: 10px;
-    align-items: center;
-    color: white;
+  display: flex;
+  margin-right: 10px;
+  align-items: center;
+  color: white;
 }
 
 #percentage-code {
-    margin-left: 10px;
-    margin-right: 20px;
-    font-weight: normal;
-    font-size: 1.2em;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: normal;
+  font-size: 1.2em;
 }
 
 h1 {
-    color: white;
-    font-weight: 600;
-    font-size: 1.5em;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
 .input-bar {
-    width: 150px;
-    border: none;
-    border-radius: 4px;
+  width: 150px;
+  border: none;
+  border-radius: 4px;
 }
 
 #paymentTerm {
-    margin-right: 10px;
-    width: 80px;
+  margin-right: 10px;
+  width: 80px;
 }
 
 #loan-frequency {
-    width: 70px;
-    border: none;
-    border-radius: 4px;
-    background: #def2f1;
-    color: #2b7a78;
+  width: 70px;
+  border: none;
+  border-radius: 4px;
+  background: #def2f1;
+  color: #2b7a78;
 }
 
 .loan-container {
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-image: linear-gradient(to bottom right, #d1e8e2, #eae7dc);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #d1e8e2, #eae7dc);
 }
 
 .percentage-code {
-    margin-left: 10px;
-    margin-right: 20px;
-    font-weight: normal;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-weight: normal;
 }
 
 .form-group label {
-    color: white;
-    font-weight: bold;
-
+  color: white;
+  font-weight: bold;
 }
 
 .form-group {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .form-control {
-    width: 50%;
+  width: 50%;
 }
 
 .result-row {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
-    margin-left: 0;
-    margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #result-pane {
-    width: 380px;
-    height: 535px;
-    padding-top: 310px;
-    background: whitesmoke;
-    margin-right: 50px;
-    margin-top: 18px;
-    box-shadow: 0 0 10px #65ccb8;
+  width: 380px;
+  height: 535px;
+  background: whitesmoke;
+  margin-right: 50px;
+  margin-top: 18px;
+  box-shadow: 0 0 10px #65ccb8;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 #my-button {
-    display: flex;
-    width: 200px;
-    margin-left: 42px;
-    margin-top: 15px;
-    background: #254e58;
-    justify-content: center;
-    font-size: 0.9em;
-    font-weight: 600;
-    padding: 15px;
-    box-shadow: 0 0 15px #254e58;
+  display: flex;
+  width: 200px;
+  margin-left: 42px;
+  margin-top: 15px;
+  background: #254e58;
+  justify-content: center;
+  font-size: 0.9em;
+  font-weight: 600;
+  padding: 15px;
+  box-shadow: 0 0 15px #254e58;
 }
 
 #my-button:hover {
-    background: #2b7a78;
+  background: #2b7a78;
 }
 
-
 #my-wrap {
-    background: #88bdbc;
-    display: flex;
-    padding: 20px;
-    padding-bottom: 0;
-    width: 1000px;
-    justify-content: space-between;
-    box-shadow: 0 0 35px #88bdbc;
+  background: #88bdbc;
+  display: flex;
+  padding: 20px;
+  padding-bottom: 0;
+  width: 1000px;
+  justify-content: space-between;
+  box-shadow: 0 0 35px #88bdbc;
 }
 
 #dropdownMenuButton {
-    width: 150px;
+  width: 150px;
 }
 
 #dropdownMenuButton span {
-    margin-right: 5px;
+  margin-right: 5px;
 }
+
+/* .loanAmtChart {
+  width: 200px;
+  height: 250px;
+} */
